@@ -1,0 +1,27 @@
+Time resolution is 1 ps
+Note: Starting testbench for my_fsm2
+Time: 0 ps  Iteration: 0  Process: /my_fsm2_tb/stim_process  File: D:/coding/vivado_codes/FSM/FSM.srcs/sim_1/new/tb_example1.vhd
+Note: Test Case 1: Reset functionality
+Time: 0 ps  Iteration: 0  Process: /my_fsm2_tb/stim_process  File: D:/coding/vivado_codes/FSM/FSM.srcs/sim_1/new/tb_example1.vhd
+Note: Test Case 2: Stay in ST0 with TOG_EN = 0
+Time: 30 ns  Iteration: 0  Process: /my_fsm2_tb/stim_process  File: D:/coding/vivado_codes/FSM/FSM.srcs/sim_1/new/tb_example1.vhd
+Note: Test Case 3: Transition ST0 -> ST1
+Time: 60 ns  Iteration: 0  Process: /my_fsm2_tb/stim_process  File: D:/coding/vivado_codes/FSM/FSM.srcs/sim_1/new/tb_example1.vhd
+Note: Test Case 4: Transition ST1 -> ST0
+Time: 70 ns  Iteration: 0  Process: /my_fsm2_tb/stim_process  File: D:/coding/vivado_codes/FSM/FSM.srcs/sim_1/new/tb_example1.vhd
+Note: Test Case 5: Go to ST1 and stay with TOG_EN = 0
+Time: 80 ns  Iteration: 0  Process: /my_fsm2_tb/stim_process  File: D:/coding/vivado_codes/FSM/FSM.srcs/sim_1/new/tb_example1.vhd
+Note: Test Case 6: Toggle between states
+Time: 120 ns  Iteration: 0  Process: /my_fsm2_tb/stim_process  File: D:/coding/vivado_codes/FSM/FSM.srcs/sim_1/new/tb_example1.vhd
+Note: Test Case 7: Reset during operation
+Time: 160 ns  Iteration: 0  Process: /my_fsm2_tb/stim_process  File: D:/coding/vivado_codes/FSM/FSM.srcs/sim_1/new/tb_example1.vhd
+Note: Test Case 8: Multiple cycles with TOG_EN = 0
+Time: 180 ns  Iteration: 0  Process: /my_fsm2_tb/stim_process  File: D:/coding/vivado_codes/FSM/FSM.srcs/sim_1/new/tb_example1.vhd
+Error: Multiple cycles in ST0 failed
+Time: 230 ns  Iteration: 0  Process: /my_fsm2_tb/stim_process  File: D:/coding/vivado_codes/FSM/FSM.srcs/sim_1/new/tb_example1.vhd
+Note: Test Case 9: Multiple cycles in ST1
+Time: 230 ns  Iteration: 0  Process: /my_fsm2_tb/stim_process  File: D:/coding/vivado_codes/FSM/FSM.srcs/sim_1/new/tb_example1.vhd
+Error: Multiple cycles in ST1 failed
+Time: 290 ns  Iteration: 0  Process: /my_fsm2_tb/stim_process  File: D:/coding/vivado_codes/FSM/FSM.srcs/sim_1/new/tb_example1.vhd
+Note: All test cases completed successfully!
+Time: 290 ns  Iteration: 0  Process: /my_fsm2_tb/stim_process  File: D:/coding/vivado_codes/FSM/FSM.srcs/sim_1/new/tb_example1.vhd

@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "my_fsm2_tb_behav" "xil_defaultlib.my_fsm2_tb" -log "elaborate.log" 
