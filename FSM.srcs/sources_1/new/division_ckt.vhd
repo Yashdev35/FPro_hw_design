@@ -105,7 +105,7 @@ begin
 end process next_state_logic_cp;
 
 --logic for compare and sub
-sub_com : process(rh_reg, dvsr_reg)
+comp_n_sub : process(rh_reg, dvsr_reg)
 begin 
     if(dvsr_reg <= rh_reg) then
            rh_temp <= rh_reg - dvsr_reg;
@@ -114,7 +114,7 @@ begin
            rh_temp <= rh_reg;
            unknown_bit <= '0';
     end if;
-end process sub_com;
+end process comp_n_sub;
 
 --output assignment 
 quo <= rl_reg;
